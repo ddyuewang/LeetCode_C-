@@ -77,6 +77,29 @@ public:
 };
 
 
+class Solution_bottom_up {
+public:
+    // implementation of bottom-up looping search 循环搜索
+    int minimumTotal(vector<vector<int>> &triangle) {
+        int n = triangle.size();
+        int m = triangle[n - 1].size();
+        vector<vector<int>> res(n, vector<int>(m, -1)); // not the most efficient way of doing it
+
+        // initialization
+        for (int i = 0; i < m; i++) {
+            res[n - 1][i] = triangle[n - 1][i];
+        }
+
+        // looping thru
+        for (int i = n - 2; i >= 0; i--) {
+            for (int j = 0; j < triangle[i].size(); j++) {
+                res[i][j] = min(res[i + 1][j], res[i + 1][j + 1]) + triangle[i][j];
+            }
+        }
+        return res[0][0];
+
+    }
+};
 
 //int main() {
 //    cout << "Hello, World!" << endl;
