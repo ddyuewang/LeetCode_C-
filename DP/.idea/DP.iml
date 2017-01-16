@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/distinct_subsequence.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/palidrome_partition.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/longgest_common_subsequence.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/interleaving_string.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/longgest_common_substring.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/word_break.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/min_distance.cpp" isTestSource="false" />

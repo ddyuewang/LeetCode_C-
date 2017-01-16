@@ -3,7 +3,7 @@
 
 using namespace std;
 
-class Solution {
+class Solution_distinct_subsequence {
 public:
     // lintcode:http://www.lintcode.com/en/problem/distinct-subsequences/
     /**
