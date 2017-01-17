@@ -41,8 +41,8 @@ public:
                 }
 
                 /*Here is very important aspect of the code
-                what happens if f[i][j] is true originally and f[i-1][j] - the dependant syage turns out to be wrong*/
-                // keep in minde the solution on the update stage has to be f[i][j] || f[i-1][j] !!!!! very crucial !!!
+                what happens if f[i][j] is true originally and f[i-1][j] - the dependant stage turns out to be wrong*/
+                // keep in mind the solution on the update stage has to be f[i][j] || f[i-1][j] !!!!! very crucial !!!
             }
         }
 
