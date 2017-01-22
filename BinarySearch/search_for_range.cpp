@@ -3,7 +3,8 @@
 
 using namespace std;
 
-class Solution {
+class Solution_search_for_range
+{
     /**
      * lintcode: http://www.lintcode.com/en/problem/search-for-a-range/
      *@param A : an integer sorted array
